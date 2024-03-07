@@ -1,3 +1,4 @@
+drop table cb_customers;
 create table cb_customers(
 id number generated always as identity primary key,
 first_name varchar2(30),
